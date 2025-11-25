@@ -4,7 +4,7 @@ public class App {
 	public static void main (String[] args) {
 
 		int col = 0;
-		for (int i = 1; i < 1000; i++) {
+		for (int i = 1; i <= 1000; i++) {
 			if (Varias.esPrimo(i)) {
 				System.out.print(i + "  ");
 				col++;
@@ -14,5 +14,6 @@ public class App {
 				col = 0;
 			}
 		}
+		System.out.println();
 	}
 }
